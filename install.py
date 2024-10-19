@@ -14,3 +14,5 @@ with open(desktop_filename, "r") as file:
 
 with open(installation_path / desktop_filename, "w") as file:
     file.write(text)
+
+print('start')
